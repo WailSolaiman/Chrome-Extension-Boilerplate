@@ -1,1 +1,3 @@
-console.log('Hello from Content')
+chrome.runtime.sendMessage('from Content to Background', (response) => {
+	console.log(response)
+})
