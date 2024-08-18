@@ -1,9 +1,9 @@
 import * as React from 'react'
 import { createRoot } from 'react-dom/client'
 
-import './popup.css'
+import './options.css'
 
-const test = <img src='icon.png' alt='React Extnsion' />
+const test = <p>Hello World from Options</p>
 
 const container = document.createElement('div')
 document.body.appendChild(container)
